@@ -1,2 +1,8 @@
-# GTF4MF
-General Time series forecasting model for Mortality forecasting.
+**Compared models of this project.** \
+  - [x] **TSMixer** - TSMixer: An All-MLP Architecture for Time Series Forecasting [[arXiv 2023]](https://arxiv.org/pdf/2303.06053.pdf) [[Code]]([https://github.com/IUTV815/GTF4MF/blob/main/model/TSMixer.py])
+  - [x] **iTransformer** - iTransformer: Inverted Transformers Are Effective for Time Series Forecasting [[ICLR 2024]](https://arxiv.org/abs/2310.06625) [[Code]]([https://github.com/IUTV815/GTF4MF/blob/main/model/iTransformer.py]).
+  - [x] **PatchTST** - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers [[ICLR 2023]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/PatchTST.py).
+  - [x] **Autoformer** - Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting [[NeurIPS 2021]](https://openreview.net/pdf?id=I55UqU-M11y) [[Code]]([https://github.com/IUTV815/GTF4MF/blob/main/model/Autoformer.py]).
+  - [x] **Transformer** - Attention is All You Need [[NeurIPS 2017]](https://github.com/IUTV815/GTF4MF/blob/main/model/Transformer.py).
+  - [x] **Crossformer** - Crossformer: Transformer Utilizing Cross-Dimension Dependency for Multivariate Time Series Forecasting [[ICLR 2023]](https://openreview.net/pdf?id=vSVLM2j9eie)[[Code]]([https://github.com/IUTV815/GTF4MF/blob/main/model/Crossformer.py]).
+  - [x] **Leddam** - Revitalizing Multivariate Time Series Forecasting: Learnable Decomposition with Inter-Series Dependencies and Intra-Series Variations Modeling [[ICML 2024]]([https://arxiv.org/abs/2402.12694])[[Code]]([https://github.com/IUTV815/GTF4MF/blob/main/model/Leddam.py]).
