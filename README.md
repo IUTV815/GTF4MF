@@ -1,4 +1,25 @@
-**Compared models of this project.** 
+## Usage
+
+1. Prepare the enviorment. For convenience, execute the following command.
+
+```
+pip install -r requirements.txt
+```
+2. Prepare Data. Since the original mortality values are too small, we **FOLLOW** other work and choose to use the **log function** values of the original values as the actual input and evaluation values. You can get the converted data using the following command
+```
+pythoon log_transform.py
+```
+3. Train and evaluate model. We provide the experiment scripts for all benchmarks under the folder `./TSF/`. You can reproduce the experiment results as the following examples:
+
+```
+# Multivairate forecasting on Feamle data
+bash TSF/Female/MM/pred/Autoformer.sh
+
+# Univairate forecasting on Feamle data (Take USA as a example)
+bash TSF/Female/SS/pred/Autoformer.sh
+```
+
+## **Compared models of this project:** 
   - [x] **TSMixer** - TSMixer: An All-MLP Architecture for Time Series Forecasting [[arXiv 2023]](https://arxiv.org/pdf/2303.06053.pdf) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/TSMixer.py)
   - [x] **iTransformer** - iTransformer: Inverted Transformers Are Effective for Time Series Forecasting [[ICLR 2024]](https://arxiv.org/abs/2310.06625) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/iTransformer.py).
   - [x] **PatchTST** - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers [[ICLR 2023]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/PatchTST.py).
