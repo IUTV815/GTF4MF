@@ -1,4 +1,4 @@
-**Compared models of this project.** \
+**Compared models of this project.** 
   - [x] **TSMixer** - TSMixer: An All-MLP Architecture for Time Series Forecasting [[arXiv 2023]](https://arxiv.org/pdf/2303.06053.pdf) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/TSMixer.py)
   - [x] **iTransformer** - iTransformer: Inverted Transformers Are Effective for Time Series Forecasting [[ICLR 2024]](https://arxiv.org/abs/2310.06625) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/iTransformer.py).
   - [x] **PatchTST** - A Time Series is Worth 64 Words: Long-term Forecasting with Transformers [[ICLR 2023]](https://openreview.net/pdf?id=Jbdc0vTOcol) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/PatchTST.py).
