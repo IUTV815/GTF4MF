@@ -29,7 +29,7 @@ bash TSF/Female/MM/pred/Autoformer.sh
 # Univairate forecasting on Feamle data (Take USA as a example)
 bash TSF/Female/SS/pred/Autoformer.sh
 ```
-## Forecasting Visualization
+## Forecasting Visualization (Take USA as a example, input-400-forecast-400)
 <p align="center">
 <img src="fig/pred.jpg" alt="" align=center />
 </p>
