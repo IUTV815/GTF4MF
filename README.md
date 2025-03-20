@@ -1,3 +1,13 @@
+## Introduction
+
+🌟 Considering the characteristics of real-world mortality data across different countries, which exhibit the traits of multivariate time series, this repository is dedicated to deploying and evaluating various state-of-the-art multivariate time series forecasting models on female and male mortality data from 24 countries.
+
+<p align="center">
+<img src="fig/intro.png"  alt="" align=center />
+</p>
+<p align="center">
+<img src="fig/usa_3d.jpg"  alt="" align=center />
+</p>
 ## Usage
 
 1. Prepare the enviorment. For convenience, execute the following command.
@@ -5,7 +15,7 @@
 ```
 pip install -r requirements.txt
 ```
-2. Prepare Data. Since the original mortality values are too small, we **FOLLOW** other work and choose to use the **log function** values of the original values as the actual input and evaluation values. You can get the converted data using the following command
+2. Prepare Data. Since the original mortality values are too small, we **FOLLOW** other work and choose to use the **log function** values of the original values as the actual input and evaluation values. You can get the converted data using the following command.
 ```
 pythoon log_transform.py
 ```
@@ -18,6 +28,10 @@ bash TSF/Female/MM/pred/Autoformer.sh
 # Univairate forecasting on Feamle data (Take USA as a example)
 bash TSF/Female/SS/pred/Autoformer.sh
 ```
+## Forecasting Visualization
+<p align="center">
+<img src="fig/pred.jpg" alt="" align=center />
+</p>
 
 ## **Compared models of this project:** 
   - [x] **TSMixer** - TSMixer: An All-MLP Architecture for Time Series Forecasting [[arXiv 2023]](https://arxiv.org/pdf/2303.06053.pdf) [[Code]](https://github.com/IUTV815/GTF4MF/blob/main/model/TSMixer.py)
